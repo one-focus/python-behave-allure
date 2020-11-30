@@ -1,0 +1,128 @@
+{
+  "uid" : "c48226bb0aae6e81",
+  "name" : "4 Validate left menu -- @1.9 ",
+  "fullName" : "features/tests/Features/Feature4.feature:4 Validate left menu",
+  "historyId" : "f26e2f67637d2e0545d108d5012688fa",
+  "time" : {
+    "start" : 1606698805295,
+    "stop" : 1606698810743,
+    "duration" : 5448
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I open home page",
+      "time" : {
+        "start" : 1606698805713,
+        "stop" : 1606698807182,
+        "duration" : 1469
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I click on Contact us",
+      "time" : {
+        "start" : 1606698807182,
+        "stop" : 1606698809601,
+        "duration" : 2419
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I see \"Wikipedia:Contact us\" on the page",
+      "time" : {
+        "start" : 1606698809601,
+        "stop" : 1606698810743,
+        "duration" : 1142
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Feature 4"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "menu item",
+    "value" : "Contact us"
+  }, {
+    "name" : "text",
+    "value" : "Wikipedia:Contact us"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "b80eaa497b4fc4ee",
+        "reportUrl" : "https://one-focus.github.io/python-behave-allure/2//#testresult/b80eaa497b4fc4ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606697457003,
+          "stop" : 1606697462467,
+          "duration" : 5464
+        }
+      } ]
+    },
+    "tags" : [ "regression" ]
+  },
+  "source" : "c48226bb0aae6e81.json",
+  "parameterValues" : [ "Contact us", "Wikipedia:Contact us" ]
+}
