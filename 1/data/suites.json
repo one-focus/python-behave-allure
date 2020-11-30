@@ -1,0 +1,96 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Validate search",
+    "uid" : "f9d78fbcf9935f70",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1606696251690,
+      "stop" : 1606696261298,
+      "duration" : 9608
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validate left menu -- @1.1 ",
+    "uid" : "48796248151af927",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1606696261298,
+      "stop" : 1606696267237,
+      "duration" : 5939
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Contents", "Wikipedia:Contents" ]
+  }, {
+    "name" : "Validate left menu -- @1.2 ",
+    "uid" : "1424d077baafe8d5",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1606696267237,
+      "stop" : 1606696276586,
+      "duration" : 9349
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Current events", "Portal:Current events" ]
+  }, {
+    "name" : "Validate left menu -- @1.3 ",
+    "uid" : "b71c61613ef3b3fd",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1606696276587,
+      "stop" : 1606696283806,
+      "duration" : 7219
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "About Wikipedia", "Wikipedia:About" ]
+  }, {
+    "name" : "Validate left menu -- @1.4 ",
+    "uid" : "f39eb5f078a814d5",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1606696283806,
+      "stop" : 1606696289204,
+      "duration" : 5398
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Contact us", "Wikipedia:Contact us" ]
+  }, {
+    "name" : "Validate left menu -- @1.5 ",
+    "uid" : "cdf68a176f7f8c4",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1606696289205,
+      "stop" : 1606696295701,
+      "duration" : 6496
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Donate", "Donation amount" ]
+  }, {
+    "name" : "Invalid login - data table",
+    "uid" : "1f780f5dedd40c21",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1606696295702,
+      "stop" : 1606696325496,
+      "duration" : 29794
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "suites"
+}
