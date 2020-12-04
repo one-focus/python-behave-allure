@@ -33,6 +33,10 @@ behave -f allure_behave.formatter:AllureFormatter -o allure-results --tags=regre
 allure generate --clean "allure-results" -o "allure-report"
 allure serve allure-results
 ```
++ Check results:
+```
+https://one-focus.github.io/python-behave-allure
+```
 + Run parallel (by features)
 ```
 python behave-parallel.py --tags=regression,search
