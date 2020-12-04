@@ -1,0 +1,149 @@
+{
+  "uid" : "4c08b5a0e6f3726a",
+  "name" : "4 Validate search",
+  "fullName" : "features/tests/Features/Feature4.feature:4 Validate search",
+  "historyId" : "33f82512b10c290828b770ffe2220205",
+  "time" : {
+    "start" : 1607104381871,
+    "stop" : 1607104392896,
+    "duration" : 11025
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I open home page",
+      "time" : {
+        "start" : 1607104382330,
+        "stop" : 1607104384722,
+        "duration" : 2392
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I type \"Test automation\" in search field",
+      "time" : {
+        "start" : 1607104384723,
+        "stop" : 1607104386816,
+        "duration" : 2093
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I click on search button",
+      "time" : {
+        "start" : 1607104386816,
+        "stop" : 1607104390748,
+        "duration" : 3932
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I see \"test automation is the use of\" on the page",
+      "time" : {
+        "start" : 1607104390749,
+        "stop" : 1607104392895,
+        "duration" : 2146
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "tag",
+    "value" : "search"
+  }, {
+    "name" : "feature",
+    "value" : "Feature 4"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "96a85f90ce58f4d",
+        "reportUrl" : "https://one-focus.github.io/python-behave-allure/3//#testresult/96a85f90ce58f4d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606698731948,
+          "stop" : 1606698742695,
+          "duration" : 10747
+        }
+      }, {
+        "uid" : "8966567dfe1d363c",
+        "reportUrl" : "https://one-focus.github.io/python-behave-allure/2//#testresult/8966567dfe1d363c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606697390967,
+          "stop" : 1606697400350,
+          "duration" : 9383
+        }
+      } ]
+    },
+    "tags" : [ "search", "regression" ]
+  },
+  "source" : "4c08b5a0e6f3726a.json",
+  "parameterValues" : [ ]
+}
